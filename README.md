@@ -43,3 +43,6 @@ cp .env.example .env
 # 4️⃣ Run the app
 npm run dev
 # Then open http://localhost:5173
+
+
+ https://encrypt2004.github.io/geminiClone/
