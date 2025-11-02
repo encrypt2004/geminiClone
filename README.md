@@ -1,16 +1,45 @@
-# React + Vite
+# geminiClone  
+*A modern conversational-AI chatbot UI inspired by Google Gemini, built with React + Vite.*
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+## 🚀 Description  
+**geminiClone** is a React-based web app that replicates the elegant chat interface of Google’s Gemini. It allows you to simulate conversational AI interactions with smooth animations, responsive layout, and simple API integration.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### ✨ Key Features  
+- Clean, modern chat interface (AI + user messages)  
+- Typing animation for bot responses  
+- Fully responsive (works on mobile and desktop)  
+- Easy setup and configuration using environment variables  
+- Built with **React + Vite** for fast development and optimized builds  
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🧩 Tech Stack  
+- **React** – UI library  
+- **Vite** – Development & build tool  
+- **JavaScript (ES6+)**  
+- **CSS / Tailwind (if used)** – Styling  
+- **Environment Variables (.env)** – API configuration  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ⚙️ Installation  
+
+```bash
+# 1️⃣ Clone this repository
+git clone https://github.com/encrypt2004/geminiClone.git
+cd geminiClone
+
+# 2️⃣ Install dependencies
+npm install
+# or
+yarn install
+
+# 3️⃣ Setup environment variables
+cp .env.example .env
+# Add your API keys or configuration in .env
+
+# 4️⃣ Run the app
+npm run dev
+# Then open http://localhost:5173
